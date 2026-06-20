@@ -1,0 +1,108 @@
+# ============================================================
+#         StudyBuddyV3BOT — Python Dependencies
+#         Install with: pip install -r requirements.txt
+# ============================================================
+
+# ------------------------------------------------------------
+# 🤖 TELEGRAM BOT FRAMEWORK
+# ------------------------------------------------------------
+# Latest async python-telegram-bot with job queue support
+python-telegram-bot[job-queue]==21.6
+
+# ------------------------------------------------------------
+# 🗄️ DATABASE — MongoDB Async Driver
+# ------------------------------------------------------------
+# Motor: async MongoDB driver built on PyMongo
+motor==3.6.0
+
+# PyMongo: required by Motor
+pymongo==4.10.1
+
+# DNS support for MongoDB Atlas SRV connection strings
+dnspython==2.7.0
+
+# ------------------------------------------------------------
+# 🧠 AI — OpenAI
+# ------------------------------------------------------------
+# Latest OpenAI Python SDK (v1.x — new format)
+openai==1.57.0
+
+# ------------------------------------------------------------
+# 🌐 TRANSLATION
+# ------------------------------------------------------------
+# deep-translator: multi-engine translation (Google, etc.)
+deep-translator==1.11.4
+
+# ------------------------------------------------------------
+# ⚙️ CONFIGURATION
+# ------------------------------------------------------------
+# python-dotenv: load .env file into os.environ
+python-dotenv==1.0.1
+
+# Pydantic: settings validation & type enforcement
+pydantic==2.10.3
+
+# Pydantic Settings: BaseSettings for .env loading
+pydantic-settings==2.6.1
+
+# ------------------------------------------------------------
+# 🌐 HTTP & NETWORKING
+# ------------------------------------------------------------
+# aiohttp: async HTTP client (used internally by PTB & services)
+aiohttp==3.11.10
+
+# httpx: modern async HTTP client (used by OpenAI SDK)
+httpx==0.28.1
+
+# ------------------------------------------------------------
+# 🧮 MATH & EXPRESSION EVALUATION
+# ------------------------------------------------------------
+# simpleeval: safe mathematical expression evaluator
+# Avoids dangerous eval() for calculator feature
+simpleeval==1.0.3
+
+# ------------------------------------------------------------
+# 📅 DATE & TIME
+# ------------------------------------------------------------
+# python-dateutil: powerful date parsing for reminders
+python-dateutil==2.9.0.post0
+
+# pytz: timezone support
+pytz==2024.2
+
+# ------------------------------------------------------------
+# 📝 LOGGING & MONITORING
+# ------------------------------------------------------------
+# colorlog: colored console log output
+colorlog==6.9.0
+
+# ------------------------------------------------------------
+# 🔐 SECURITY & VALIDATION
+# ------------------------------------------------------------
+# cryptography: for any encryption needs
+cryptography==44.0.0
+
+# ------------------------------------------------------------
+# 🛠️ UTILITIES
+# ------------------------------------------------------------
+# cachetools: in-memory caching for rate limiting
+cachetools==5.5.0
+
+# tenacity: retry logic for API calls (OpenAI, etc.)
+tenacity==9.0.0
+
+# humanize: human-readable numbers/dates for UI
+humanize==4.11.0
+
+# ------------------------------------------------------------
+# 🚀 PERFORMANCE
+# ------------------------------------------------------------
+# uvloop: faster async event loop (Linux/macOS only)
+# Uncomment if deploying on Linux (Render uses Linux)
+uvloop==0.21.0
+
+# ------------------------------------------------------------
+# 📊 OPTIONAL — Analytics & Stats
+# ------------------------------------------------------------
+# tabulate: format tables in admin stats panel
+tabulate==0.9.0
